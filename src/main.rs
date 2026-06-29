@@ -7,8 +7,6 @@ fn main() {
     let mut tries: i32 = 0;
     let number: i32 = rand::random_range(1..100);
 
-    println!("{number}");
-
     loop {
         let mut guess = String::new();
 
