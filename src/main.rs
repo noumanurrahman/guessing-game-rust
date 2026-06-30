@@ -22,8 +22,8 @@ fn main() {
         tries += 1;
 
         match guess_num.cmp(&number) {
-            Ordering::Less => println!("Too small!"),
-            Ordering::Greater => println!("Too big!"),
+            Ordering::Less => println!("Guess bigger!"),
+            Ordering::Greater => println!("Guess smaller!"),
             Ordering::Equal => {
                 println!("You WON in {} tries!", tries);
                 break;
